@@ -1,9 +1,9 @@
 [build-system]
-requires = ["setuptools>=80", "wheel"]
+requires = ["setuptools>=40", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "cleverweb-utils"
+name = "cleverwebutils"
 version = "0.1.0"
 description = "A minimal private Python package"
 authors = [{name = "Techhubsquare", email = "support@techhubsquare.com"}]

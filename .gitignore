@@ -1,5 +1,5 @@
 package_env/
-
+docs.md
 # Python
 __pycache__/
 *.py[cod]
