@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=80", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cleverweb-utils"
+version = "0.1.0"
+description = "A minimal private Python package"
+authors = [{name = "Techhubsquare", email = "support@techhubsquare.com"}]
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "bcrypt==4.3.0",
+    "pydantic==2.11.1",
+    "fastapi==0.115.12",
+    "fastapi-cli==0.0.7",
+    "python-decouple==3.8",
+    "passlib==1.7.4",
+    "PyJWT==2.10.1"
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

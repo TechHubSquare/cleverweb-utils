@@ -1,1 +1,27 @@
 package_env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+*.pyo
+
+# Build
+build/
+dist/
+*.tar.gz
+*.whl
+
+# Virtual environments
+.env/
+.venv/
+venv/
+package_env/
+
+# Editor/IDE
+.vscode/
+.idea/
+
+# pip-tools cache
+pip-log.txt
